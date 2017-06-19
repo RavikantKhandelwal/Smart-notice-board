@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.smartnotice.ShareToClass">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/S.EExtcA"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="S.E. Extc A" />
+
+        <Button
+            android:id="@+id/S.EExtcB"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/S.EExtcA"
+            android:text="S.E. Extc B" />
+
+
+        <Button
+            android:id="@+id/T.EExtcA"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+
+            android:text="T.E. Extc A"
+            android:layout_alignRight="@+id/B.EExtcA"
+            android:layout_alignEnd="@+id/B.EExtcA" />
+
+        <Button
+            android:id="@+id/T.EExtcB"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="T.E. Extc B" />
+
+        <Button
+            android:id="@+id/B.EExtcA"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/T.EExtcB"
+            android:layout_toStartOf="@+id/T.EExtcB"
+            android:text="B.E. Extc A" />
+
+        <Button
+            android:id="@+id/B.EExtcB"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="B.E. Extc B" />
+
+    </RelativeLayout>
+
+</LinearLayout>
